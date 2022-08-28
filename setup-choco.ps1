@@ -12,7 +12,6 @@ else {
 Write-Host  "Intstalling minimal setup"
 & choco install `
     7zip `
-    cascadia-code-nerd-font `
     chocolateygui `
     git `
     oh-my-posh `
@@ -31,7 +30,6 @@ if ((Read-Host "Install dev tools: (y/N)").ToLower() -eq 'y') {
         autohotkey.install `
         azure-cli `
         eartrumpet `
-        gh `
         insomnia-rest-api-client `
         nodejs-lts `
         nswagstudio `
