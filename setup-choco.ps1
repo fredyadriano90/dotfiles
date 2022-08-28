@@ -77,5 +77,6 @@ if ((Read-Host "Install other apps: (y/N)").ToLower() -eq 'y') {
         th-ch-youtube-music `
         lightshot `
         googledrive `
+        powershell-core `
         -y
 }
