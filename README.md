@@ -5,9 +5,9 @@
 ## Setup
 
 1. Install the tools
-   ```iwr -useb https://raw.githubusercontent.com/wicksipedia/dotfiles/main/setup-choco.ps1 | iex```
+   ```iwr -useb https://raw.githubusercontent.com/fredyadriano90/dotfiles/main/setup-choco.ps1 | iex```
 2. Clone repo
-   ```git clone https://github.com/wicksipedia/dotfiles.git```
+   ```git clone https://github.com/fredyadriano90/dotfiles.git```
 3. Customise Powershell & Windows Terminal
    ```.\setup-shell.ps1```
 4. Reload profile
